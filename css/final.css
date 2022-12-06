@@ -1,0 +1,304 @@
+/* Nav Bar */
+
+.navbar-color {
+    background: #858d6f;
+}
+
+.navbar-text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Welcome */
+
+#welcome {
+    background-color: #abbd9a;
+    padding: 0.5%;
+    position: relative; 
+}
+
+.frontpage {
+   padding: 15% 15%
+}
+
+.frontpage h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%);   
+}
+/* 
+.frontpage p{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: center;
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%);   
+}
+ */
+
+.btn {
+        background-color: #5F8D4E;
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        display: block;
+        padding: 25px 20px 5px;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+}
+
+a.download {
+    color: white;
+}
+
+a.download:hover {
+    color: #DEBACE ;
+}
+
+a.download:active{
+    color: blue;
+}
+
+
+/* About Me */
+
+#aboutme {
+    padding: 15% 15%;
+    background-color: #ced2ba; 
+    z-index: 1;
+    position: relative; 
+}
+
+h2.aboutme-text {
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    margin: 0;
+    font-size: 4em;
+    text-align: left;
+}
+
+p.aboutme-text {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(92, 92, 92);
+    font-size: 2em;
+    text-align: left;
+}
+
+.carousel-slide {
+    width: 100%;
+}
+
+em {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* Portfolio */
+
+#portfolio {
+    padding: 10% 5%;
+    background-color: #abbd9a;
+    z-index: 1; 
+    position: relative; 
+}
+
+h2.portfolio-text {
+    font-size: 4em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+}
+
+p.portfolio-text {
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 2em;
+    color: rgb(92, 92, 92);
+    text-align: left;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    padding: 5px;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .outline:hover {
+    border: 4px solid pink;
+    padding: 0;
+    margin: 0;
+  }
+
+  .outline:active {
+    border: 4px solid green;
+    padding: 0;
+    margin: 0;
+  }
+  .outline:visited {
+    border: 4px solid purple;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+/* Contact Form */
+
+#contactme {
+    padding: 15% 15%;
+    background-color: #ced2ba;
+    z-index: 1; 
+    position: relative; 
+}
+
+h3 {
+    font-size: 4em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+    
+}
+
+
+
+p.contact-text {
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 2em;
+    color: rgb(92, 92, 92);
+    text-align: left;
+}
+form {
+    background-color: #858d6f;
+  
+    display: flex;
+    flex-direction: column; 
+    padding: 2vw 4vw; 
+    width: 100%;
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+form h2 {  
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0; 
+    padding: 20px;
+    outline: none;
+    background: lightgray;
+    font-size: 16px;
+    border-radius: 5px;
+} 
+
+form button {
+    padding: 15px; 
+    background: #5F8D4E;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: none; 
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+ 
+.column-form {
+    float: left;
+    width: 50%;
+}
+
+.row-contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-image {
+    float: left;
+    width: 600px;
+    position: static;
+    height: 600px;
+    padding: 150px 150px 0 0;
+    
+}
+/* .column-contact  h3 {
+    margin-right: 100px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+
+}
+
+em {
+    font-size: 30px;
+} */
+
+/* Footer */
+
+#footer {
+    background-color: #858d6f;
+    padding: 1%;
+    z-index: 1; 
+    position: relative; 
+    text-align: center;
+}
+
+a.instagram {
+    color: black;
+}
+
+a.instagram:hover{
+    color: palevioletred;
+}
+
+a.instagram:active {
+    color: pink;
+    cursor: pointer;
+}
+
+/* a.instagram:visited {
+    color: purple;
+} */
+
+h6 {
+    font-size: 10px;
+    margin: 0;
+}
